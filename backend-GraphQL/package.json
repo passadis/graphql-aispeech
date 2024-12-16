@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.5.0",
+    "@azure/keyvault-secrets": "^4.9.0",
+    "apollo-server": "^3.11.1",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "form-data": "^4.0.1",
+    "graphql": "^15.9.0",
+    "graphql-upload": "^11.0.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.41.0"
+  }
+}

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #0078d4, #9c27b0);
+    color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .header-logo {
+    height: 40px; /* Adjust as needed */
+    margin-left: 1rem;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0078d4;
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #005a9e;
+}
+
+/* Make the navbar fill the full horizontal line */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /* Add more horizontal padding */
+    background: linear-gradient(to right, #0078d4, #004578); /* Gradient for a modern look */
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure it stretches across */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Navigation links styling */
+.navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Improve filename button appearance */
+.transcription-button {
+    display: inline-block;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.transcription-button:hover {
+    background-color: #005a9e;
+}
+
+.transcription-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #0078d4;
+}
+
+/* Ensure the transcription section looks clean */
+.transcription-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.transcription-list,
+.transcription-details {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
