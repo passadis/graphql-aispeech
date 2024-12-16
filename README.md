@@ -33,3 +33,4 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ## Architecture
 
+![architecturegr](https://github.com/user-attachments/assets/3ae29558-d9e2-47aa-be6d-c77a35e16655)
