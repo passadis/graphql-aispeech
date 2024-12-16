@@ -26,7 +26,7 @@ A modern web application that leverages GraphQL, Azure AI Speech Services, and A
 This project demonstrates the powerful combination of GraphQL and Azure AI services, showcasing how modern web applications can handle complex audio processing workflows with elegance and efficiency. By leveraging GraphQL's flexible data fetching capabilities alongside Azure's robust cloud infrastructure, we've created a scalable solution that streamlines the audio transcription process from upload to delivery. The integration of Apollo Server provides a clean, type-safe API layer that simplifies client-server communication, while Azure AI Speech Services ensures accurate transcription results. This architecture not only delivers a superior developer experience but also provides end-users with a seamless, professional-grade audio transcription service.
 
 ## Instructions
-**Explore the Project in Detail**: For a comprehensive guide on building this project, visit [How to develop GraphQL with Azure AI Speech](https://www.cloudblogger.eu/2024/07/31/semantic-kernel-develop-your-ai-integrated-web-app-on-azure-and-net-8-0/).  
+**Explore the Project in Detail**: For a comprehensive guide on building this project, visit [How to develop GraphQL with Azure AI Speech](https://www.cloudblogger.eu/2024/12/16/graphql-api-unlimited-flexibility-for-your-ai-applications/).  
 
 ## Contribution
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository, make your changes, and submit a pull request.
